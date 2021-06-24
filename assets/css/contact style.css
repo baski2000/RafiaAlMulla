@@ -1,0 +1,77 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+ }
+ @font-face {
+    font-family: OpenSans-SemiBold;
+    src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf");
+ }
+ @font-face {
+    font-family: Philosopher-Bold;
+    src: url("../fonts/Philosopher/Philosopher-Bold.ttf");
+ }
+ @font-face {
+    font-family: OpenSans-Italic;
+    src: url("../fonts/Open_Sans/OpenSans-Italic.ttf");
+ }
+ * {
+    font-family: OpenSans-Regular;
+ }
+
+body{    
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+.ra-hero {
+    height: 900px;
+    background-image: url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ra-nav {
+    left: 133px;
+    top: 38px;
+}
+
+.ra-btn {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    left: 92px;
+    top: 40px;
+}
+
+.contact {
+color: #39667F;
+}
+
+input[type=text] {
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=email] {
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input[type=tel] {
+    fill: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+  
+.ra-footer {
+    background-image: url('../img/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 591px;
+}
